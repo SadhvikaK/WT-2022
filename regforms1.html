@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <!--<style>
+        table
+        {
+            outline: rgb(95,10,10);
+            outline-style:solid;
+            outline: width 80px;;
+            border-style:dotted;
+            border-color: rgb(70,80,50);
+            border: spacing 10px;
+            width:60px;
+        }
+    </style>-->
+</head>
+<body>
+    <h2 align="center">Registration Forms</h2>
+    <table align="center" cellspacing="10">
+    <form action="dataprocess.html" method="">
+        <tr>
+            <td>
+        <label>First Name: </label></td>
+        <td><input type="text" required maxlength="50"></td>
+        </tr>
+        <tr>
+        <td><label>LastName: </label></td>
+        <td><input type="text" required maxlength="50" ></td>
+        </tr>
+        <tr>
+        <td><label>Email ID:</label></td>
+        <td><input type="email" required ></td>
+        </tr>
+        <tr>
+        <td><label>Mobile Number: </label></td>
+        <td><input  type="number" maxlength="10"></td>
+        </tr>
+        <tr>
+        <td><label>Gender: </label></td>
+        <td><input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female</td>
+        </tr>
+        <tr>
+        <td><label>DOB: </label></td>
+        <td><input type="date"></td>
+        </tr>
+    <tr>
+        <td><label>Address: </label></td>
+        <td><textarea></textarea></td>
+    </tr>
+    <tr>
+        <td><label>City: </label></td>
+        <td><input type="text" maxlength="50"></td>
+    </tr>
+    <tr>
+        <td><label>Pin Code: </label></td>
+        <td><input type="number" maxlength="6"></td>
+    </tr>
+    <tr>
+        <td><label>State: </label></td>
+        <td><input type="text" maxlength="50"></td>
+    </tr>
+    <tr>
+        <td><label>Country: </label></td>
+        <td><input type="text" required></td>
+    </tr>
+    <tr>
+        <td><label>Hobbies: </label></td>
+        <td><input type="checkbox" name="Hobbies">Drawing
+        <input type="checkbox" vname="Hobbies">Singing
+        <input type="checkbox" name="Hobbies">Dancing
+        <input type="checkbox" name="Hobbies">Sketching
+        <input type="checkbox" name="Hobbies">Others
+        <input type="text" maxlength="50"> </td>
+    </tr>
+    <tr>
+    <td><label>Qualification:</label></td>
+    <td><input type="checkbox" name="Qualification"> High School(10th)<br>
+    <input type="checkbox" name="Qualification"> Higher School(12th)<br>
+    <input type="checkbox" name="Qualification"> Graduation(Bachelors)<br>
+    <input type="checkbox" name="Qualification"> Post Graduation(Masters)<br>
+    <input type="checkbox" name="Qualification"> PhD<br></td>
+    </tr>
+    <tr>
+    <td><label> Choose Applied for: </label></td>
+    <td><input type="checkbox" name="Choose your course"> BCA (Bachelors of Computer Applications)<br>
+    <input type="checkbox" name="Choose your course"> B.com(Bachelors of Commerce)<br>
+    <input type="checkbox" name="Choose your course"> B.Sc (Bachelors of Science)<br>
+    <input type="checkbox" name="Choose your course"> BA (Bachelors of Arts)<br>
+    <input type="checkbox" name="Choose your course"> MCA (Masters of Computer Applications)<br>
+    <input type="checkbox" name="Choose your course"> M.com (Masters of Commerce)<br>
+    <input type="checkbox" name="Choose your course"> M.Sc (Masters of Science)<br>
+    <input type="checkbox" name="Choose your course"> MA (Masters of Arts)<br></td>
+    <tr><td><button type="submit">Submit</button></td>
+    <td><button type="reset">Reset</button></td></tr>
+    </form>
+</body>
+</html>

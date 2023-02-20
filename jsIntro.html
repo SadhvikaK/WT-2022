@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Checking</title>
+    <script>
+        function age(){
+            let age=Number(document.getElementById("age").value);
+        if(age>=18)
+            document.getElementById("displaycheck").innerText="You are eligible to vote.";
+        else
+            document.getElementById("displaycheck").innerText="You are not eligible to vote.";
+        }
+        </script>
+</head>
+<body>
+    <input type="text" id="age">
+    <input type="button" value="check" onclick="age()"/>
+    <p id="displaycheck"></p>
+</body>
+</html>
